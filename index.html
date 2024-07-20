@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ranks and Market</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: #FFFFFF;
+            background-image: url('img/wallpaper_the_first_descendant_03_1920x1080.jpg');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+        
+        .content {
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.425);
+            height: 100%;
+            overflow: auto;
+            border-radius: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #00BFFF;
+            padding-bottom: 8px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #00BFFF;
+            font-size: 22px;
+        }
+
+        .wrapper { 
+            width: 700px;
+            margin: 0 auto;
+        }
+        .rank {
+            width: 200px;
+            height: 120px;
+            float: left;
+            padding: 4px 10px;
+            border: 2px solid #00BFFF;
+            margin: 10px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.521);
+            text-align: center;
+            color: #FFFFFF;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .rank h1 {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+        .rank p {
+            font-size: 14px;
+            margin: 8px 0;
+        }
+        .rank a {
+            display: inline-block;
+            padding: 6px 10px;
+            margin-top: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #00BFFF;
+            color: #000000;
+            font-size: 14px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .rank a:hover {
+            background-color: #1E90FF;
+            color: #FFFFFF;
+        }
+        .rank:hover {
+            transform: scale(1.05);
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div id="market" class="section">
+            <h2>Ranks</h2>
+            <div class="wrapper">
+                <div class="rank">
+                    <h1>Owner</h1>
+                    <p>60€</p>
+                    <a href="owner.html">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Co Owner</h1>
+                    <p>50€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Diamond Boss</h1>
+                    <p>40€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Golden Admin</h1>
+                    <p>30€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Admin</h1>
+                    <p>15€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Ultimate VIP</h1>
+                    <p>10€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Super VIP</h1>
+                    <p>7€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Full VIP</h1>
+                    <p>5€</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="rank">
+                    <h1>Steam VIP</h1>
+                    <p>3€</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
